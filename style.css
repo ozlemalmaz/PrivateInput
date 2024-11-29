@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(79, 79, 208);
+    display: flex;
+}
+
+.container{
+  background-color: #ffff;
+  width: 350px;
+  padding: 30px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+}
+
+.searchBox{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input_wrapper{
+    position: relative;
+    padding: 15px 0px 0px;
+}
+
+.input_field{
+    border: none;
+    border-bottom: 2px solid var(--secondary);
+    outline: none;
+    font-size: 16px;
+    color: var(--text);
+    padding: 4px 0px;
+    padding-right: 32px;
+    background-color: transparent;
+    transition: border-color 0.2s;
+}
+
+
+.input_icon{
+    position: absolute;
+    right: -14px;
+    bottom: -11px;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    cursor: pointer;
+}
+
+
+
